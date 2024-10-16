@@ -1,8 +1,9 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
+    "local": "next dev -H  192.168.1.90",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -17,6 +18,9 @@
     "lucide-react": "^0.453.0",
     "next": "14.2.15",
     "next-themes": "^0.3.0",
+    "open": "^10.1.0",
+    "puppeteer": "^23.5.3",
+    "puppeteer-core": "^23.5.3",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.5.4",
