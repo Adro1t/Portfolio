@@ -1,3 +1,3 @@
 export default function Intro() {
-  return <div className="border h-96 rounded-3xl">hello</div>;
+  return <div className="rounded-3xl bg-primary h-full">hello</div>;
 }
