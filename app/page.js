@@ -12,7 +12,7 @@ import Socials from "@/components/Socials";
 export default function Home() {
   return (
     <>
-      <Container className="flex gap-5" id="product-info">
+      <Container className="mb-5" id="product-info">
         {/* left side */}
         <Container className="flex-col w-2/3">
           <Container className=" h-80">
@@ -23,7 +23,7 @@ export default function Home() {
               <ImageCard />
             </div>
           </Container>
-          <Container className="h-80">
+          <Container className="h-[310px]">
             <div className="w-1/2">
               <About />
             </div>

@@ -4,10 +4,10 @@ export default function Navbar() {
   return (
     <>
       <nav className="bg-primary my-5 h-20 rounded-3xl flex justify-between items-center ">
-        <Link href="/" className="mx-10 text-3xl text-border">
+        <Link href="/" className="mx-10 text-3xl">
           <b>Raman</b>&nbsp;Khadgi
         </Link>
-        <ul className="flex gap-12 mx-10 uppercase text-base">
+        <ul className="flex gap-12 mx-10 uppercase text-base font-semibold">
           <li>
             <Link href="/">Projects</Link>
           </li>
